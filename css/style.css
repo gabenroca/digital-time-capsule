@@ -1,0 +1,312 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    position: fixed;
+}
+
+.menu {
+    background-image: linear-gradient(to right, #261E17 0%, #734838);
+    width: 17%;
+    background-color: #402721;
+    border-width: 2px;
+    flex-wrap: wrap;
+    
+}
+
+#name {
+    color: #FFE375;
+    text-align: center;
+    font-size: 43px;
+    letter-spacing: 4px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.icon-color {
+    font-family: 'Courier New', Courier, monospace;
+    color:#94A9D6;
+}
+
+.icon-color-2 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FF736D;
+}
+
+.icon-color-3 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFB48C;
+}
+
+.icon-color-4 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#A3DB89;
+}
+
+.icon-color-5 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFE375;
+}
+
+.icon-color-6 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FF736D;
+}
+
+.icon-color-7 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFB48C;
+}
+
+.icon-color-8 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFE375;
+}
+
+.icon-color-9 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#A3DB89;
+}
+
+.icon-color-10 {
+    font-family: 'Courier New', Courier, monospace;
+    color:#94A9D6;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+}
+
+.menu a:hover {
+    background-color: #734B34;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+
+
+
+.Welcome-text {
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #FFE1C6;
+    padding: 100px;
+    background: #A67153;
+}
+
+.G {
+    font-family: 'Courier New', Courier;
+    color:#94A9D6;
+}
+
+.A {
+    font-family: 'Courier New', Courier;
+    color:#FF736D;
+}
+
+.B {
+    font-family: 'Courier New', Courier;
+    color:#FFB48C;
+}
+
+.R {
+    font-family: 'Courier New', Courier;
+    color:#A3DB89;
+}
+
+.I {
+    font-family: 'Courier New', Courier;
+    color:#FFE375;
+}
+
+.E {
+    font-family: 'Courier New', Courier;
+    color:#FF736D;
+}
+
+.L {
+    font-family: 'Courier New', Courier;
+    color:#FFB48C;
+}
+
+.apost {
+    font-family: 'Courier New', Courier;
+    color:#94A9D6; 
+}
+
+.s {
+    font-family: 'Courier New', Courier;
+    color:#A3DB89;
+}
+
+.Scrapbook{
+    font-family: 'Courier New', Courier;
+    color: #FFE1C6;
+}
+
+.Earth {
+    margin: 0;
+}
+
+.column-about {
+    float:right;
+    width:0%;
+    overflow: auto;
+    flex-wrap: wrap;
+    padding-right: 800px;
+}
+
+.about-photo {
+    padding-left: 20px ;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+ 
+.Gabriel-Roca {
+    color:#FF736C;
+    font-size: 50px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+
+
+.about-body {
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 160px;
+    padding-left: 110px;
+    overflow: auto;
+    flex-wrap: wrap;
+    background-color: #EBF1F2;   
+}
+
+.body-photos {
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.text-japan {
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 630px;
+    padding-left: 110px;
+    background: #F2EADF;
+    flex-wrap: wrap;
+}
+
+.timeline {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.Japan-name {
+    color:#FF736C;
+    font-size: 50px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.column {
+    float:right;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    overflow:auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear:both;
+    flex-wrap: wrap;
+}
+
+.LIT {
+    background: #F2DFE2;
+}
+
+.Seven-State-Roadtrip {
+    color:#FF736C;
+    font-size: 25px;
+    text-align: left;
+    flex-wrap: wrap;
+    background: #A3DB89;
+}
+
+.Japan {
+    color:#FF736C;
+    font-size: 25px;
+    text-align: left;
+    flex-wrap: wrap;
+    background: #A3DB89;
+}
+
+
+
+.MAPS {
+    color:#FF736C;
+    font-size: 50px;
+    text-align: left;
+    flex-wrap: wrap;  
+}
+
+.maps-text {
+    padding-right: 160px;
+    padding-left: 110px;
+    
+
+}
+
+.Roadtrip {
+    padding-left: 380px;
+    align-content: center;
+    background-color: #EBF1F2;
+}
+
+.Sierra-at-Tahoe {
+    color:#FF736C;
+    font-size: 25px;
+    text-align: left;
+    flex-wrap: wrap;
+    background:#A3DB89;
+}
+
+
+.row-two {
+    padding-left: 380px;
+    align-content: center;
+}
+
+.column-two {
+    float: left;
+    width: 48%;
+    flex-wrap: wrap;
+    background-color: #F1F1F1;
+}
+
+.Ski-trip {
+    padding-left: 380px;
+    align-content: center;
+    background-color: #F1F1F1;
+}
